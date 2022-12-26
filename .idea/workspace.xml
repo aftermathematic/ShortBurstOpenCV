@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6ec00a7-d376-483c-90f9-dd838fc4ce9a" name="Changes" comment="Initial commit 2">
-      <change afterPath="$PROJECT_DIR$/libs/opencv-460.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/x64/opencv_java460.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/x86/opencv_java460.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ShortBurstOpenCV/Test.java" afterDir="false" />
+    <list default="true" id="a6ec00a7-d376-483c-90f9-dd838fc4ce9a" name="Changes" comment="faces test">
+      <change afterPath="$PROJECT_DIR$/images/face1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/faces.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/faces_out.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rodeduivels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rodeduivels_out.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sopranos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sopranos_out.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xml/lbpcascade_frontalface.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortBurstOpenCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortBurstOpenCV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ShortBurstOpenCV/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ShortBurstOpenCV/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +47,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Git/ShortBurstOpenCV/libs/x64/opencv_java460.dll",
+    "last_opened_file_path": "C:/Git/ShortBurstOpenCV/images",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\ShortBurstOpenCV\images" />
+      <recent name="C:\Git\ShortBurstOpenCV\xml" />
       <recent name="C:\Git\ShortBurstOpenCV\libs" />
     </key>
   </component>
@@ -90,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672044179209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="migrate to package">
+      <created>1672050127333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672050127333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,9 +118,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit 2" />
+    <MESSAGE value="migrate to package" />
+    <MESSAGE value="faces test" />
+    <option name="LAST_COMMIT_MESSAGE" value="faces test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
