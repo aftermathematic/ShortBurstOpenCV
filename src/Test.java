@@ -15,6 +15,7 @@ public class Test {
         mr1.setTo(new Scalar(1));
         Mat mc5 = m.col(5);
         mc5.setTo(new Scalar(5));
+
         System.out.println("OpenCV Mat data:\n" + m.dump());
     }
 }
